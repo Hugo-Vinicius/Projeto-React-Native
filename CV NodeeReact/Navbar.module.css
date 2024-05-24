@@ -40,3 +40,26 @@ body {
     border-bottom: 1px solid #f4f4f4;
   }
   
+  /* src/components/Profile.css */
+.profile {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.profile h1 {
+  margin: 10px 0 5px;
+}
+
+.profile p {
+  margin: 0;
+  font-size: 1.2em;
+  color: #666;
+}
